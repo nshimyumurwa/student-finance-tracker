@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Regex Validator</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body class="regex-page">
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="logo">💰 MyFinance</div>
+      <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="records.html">Records</a>
+        <a href="regex.html" class="active">Regex Validator</a>
+        <a href="summary.html">Summary</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <h1>Regex Validator</h1>
+      </header>
+
+      <section class="records-section">
+        <h2>Test Your Regex</h2>
+        <label for="pattern">Pattern:</label>
+        <input type="text" id="pattern" placeholder="Enter regex (e.g. ^\\d+$)">
+        <label for="testText">Text to test:</label>
+        <textarea id="testText" rows="3" placeholder="Enter text here..."></textarea>
+        <button id="runRegex" class="btn-primary">Test</button>
+        <p id="regexResult" class="empty"></p>
+      </section>
+    </main>
+  </div>
+
+  <script src="scripts/regex.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Tracker Dashboard</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="logo">💰 MyFinance</div>
+      <nav>
+        <a href="index.html" class="active">Dashboard</a>
+        <a href="records.html">Records</a>
+        <a href="regex.html">Regex Validator</a>
+        <a href="summary.html">Summary</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <h1>Dashboard Overview</h1>
+      </header>
+
+      <section class="summary-cards">
+        <div class="card">
+          <h3>Total Income</h3>
+          <p id="totalIncome">RWF 0</p>
+        </div>
+        <div class="card">
+          <h3>Total Expenses</h3>
+          <p id="totalExpenses">RWF 0</p>
+        </div>
+        <div class="card">
+          <h3>Balance</h3>
+          <p id="balance">RWF 0</p>
+        </div>
+        <div class="card">
+          <h3>Total Records</h3>
+          <p id="totalRecords">0</p>
+        </div>
+      </section>
+
+      <section class="records-section">
+        <h2>Recent Transactions</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody id="dashboardTableBody">
+            <tr><td colspan="4" class="empty">No records yet</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <script src="scripts/storage.js"></script>
+  <script src="scripts/ui.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

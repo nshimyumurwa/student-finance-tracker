@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summary</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body class="summary-page">
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="logo">💰 MyFinance</div>
+      <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="records.html">Records</a>
+        <a href="regex.html">Regex Validator</a>
+        <a href="summary.html" class="active">Summary</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <h1>Summary & Export</h1>
+      </header>
+
+      <div class="records-section">
+        <h2>Statistics</h2>
+        <p id="statsText">No records found.</p>
+        <button id="exportBtn" class="btn-primary">Export JSON</button>
+        <input type="file" id="importFile" accept=".json" class="btn-secondary" />
+      </div>
+    </main>
+  </div>
+
+  <script src="scripts/storage.js"></script>
+  <script src="scripts/ui.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-10-10",
+    "desc": "Allowance from Dad",
+    "amount": 15000,
+    "type": "income"
+  },
+  {
+    "date": "2025-10-12",
+    "desc": "Groceries",
+    "amount": 5000,
+    "type": "expense"
+  },
+  {
+    "date": "2025-10-13",
+    "desc": "Choir Transport",
+    "amount": 2000,
+    "type": "expense"
+  },
+  {
+    "date": "2025-10-14",
+    "desc": "Online Gig Payment",
+    "amount": 25000,
+    "type": "income"
+  }
+]
