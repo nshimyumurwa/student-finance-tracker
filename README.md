@@ -3,7 +3,7 @@
 A simple, responsive web app that helps students track their daily expenses in Rwandan Francs (RWF).
 
 # Live Demo
-[GitHub Pages Link](https://Nsh-teddy.github.io/student-finance-tracker/)
+https://youtu.be/p1_vtDQoIGA
 
 # Features
 - Add, edit, and delete expense records  
@@ -38,4 +38,4 @@ A simple, responsive web app that helps students track their daily expenses in R
 # How to Run Locally
 1. Clone this repo  
    ```bash
-   git clone https://github.com/Nsh-teddy/student-finance-tracker.git
+   git clone https://github.com/nshimyumurwa/student-finance-tracker
