@@ -3,7 +3,7 @@
 A simple, responsive web app that helps students track their daily expenses in Rwandan Francs (RWF).
 
 # Live Demo
-https://youtu.be/p1_vtDQoIGA
+https://youtu.be/UEG76l0J7vY
 
 # Features
 - Add, edit, and delete expense records  
